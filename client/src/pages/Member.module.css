@@ -1,0 +1,53 @@
+
+.memberImage{
+  height: 150px;
+  width: 150px;
+  min-height: 150px;
+  min-width: 150px;
+  box-shadow: 2px 2px 8px white;
+}
+.detailDiv{
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+}
+.detailDiv:first-child{
+  margin: 50px;
+  padding: 20px;
+}
+.detailDiv div:first-child{
+  width: 50%;
+  text-align: end;
+  padding-right: 5vw;
+}
+.detailDiv div{
+  width: 50%;
+  text-align: start;
+  padding-left: 10px;
+}
+.membershipDiv{
+  margin: 50px 20px;
+}
+.membershipDiv h2{
+  background-color: #333;
+  margin: 20px 0;
+  padding: 5px;
+}
+
+.myButton{
+  float: right;
+  background-color: green;
+  color: white;
+  border: none;
+  margin: 0 5px;
+  text-align: center;
+  padding: 12px;
+  margin: 0 0 20px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  cursor: pointer;
+}

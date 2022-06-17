@@ -1,0 +1,14 @@
+.myCard div{
+    justify-content: space-between;
+}
+.myCard div input{
+    padding: 5px;
+    margin: 2px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.errorDiv{
+    color: red;
+    background-color: aqua;
+}

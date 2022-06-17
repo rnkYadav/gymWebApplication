@@ -1,0 +1,23 @@
+.customerDiv{
+    background-color: white;
+    color: black;
+    margin: 5px 0;
+    border: 3px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: start;
+}
+
+.customerDiv label{
+    padding: 5px;
+}
+
+.myBtn2{
+    background-color: #008CBA;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 4px 2px;
+}
